@@ -1,0 +1,38 @@
+#div-1 {
+	width: 200px;
+	height: 500px;
+	background-color: green;
+}
+#div-2 {
+	width: 800px;
+	height: 500px;
+	background-color: red;
+}
+#div-3 {
+	width: 200px;
+	height: 500px;
+	background-color: green;
+}
+div {
+	display: inline-block;
+}
+
+@media screen and (max-width: 1245px) {
+	#div-2 {
+		width: 600px;
+	}
+}
+
+@media screen and (max-width: 1040px) {
+	#div-2 {
+		width: 600px;
+	}
+
+	#div-1 {
+		display: none;
+	}
+
+	#div-3 {
+		display: none;
+	}
+}
